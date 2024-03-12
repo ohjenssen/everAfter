@@ -19,6 +19,8 @@ body {
 
 .title {
     color: white;
+    max-width: 200px;
+    text-align: center;
 }
 
 .opret-konto-form {
@@ -51,10 +53,17 @@ body {
     margin-top: 16px;
     padding: 10px 0px;
     width: 100%;
-    border: none;
+    border: 1px solid #CDC2A5;
     border-radius: 20px;
     color: white;
     background-color: #CDC2A5;
+}
+
+.opretBtn:hover {
+    transition: 0.5s;
+    background-color: #6e5b2c;
+    color: #ffffff;
+    border: 1px solid #6e5b2c;
 }
 
 @media (min-width: 350px){
