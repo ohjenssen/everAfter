@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="app.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">    
+    <title>EverAfter | Opret konto</title>
+</head>
+<body>
+    <section class="container">
+        <div class="logoContainer">
+            <img src="images/logo.png" class="logo"/>
+        </div>
+        <h1 class="title">OPRET DIN KONTO</h1>
+        <form class="opret-konto-form">
+            <div>
+                <label for="fornavn">Fornavn</label>
+                <input name="fornavn" id="fornavn" class="opret-konto-input" required>
+            </div>
+
+            <div>
+                <label for="efternavn">Efternavn</label>
+                <input name="efternavn" id="efternavn" class="opret-konto-input" required>
+            </div>
+            
+            <div>
+                <label for="email">E-mail</label>
+                <input name="email" id="email" class="opret-konto-input" required>
+            </div>
+            
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="opret-konto-input" required>
+            </div>
+            <button class="opretBtn">NÆSTE</button>
+        </form>
+    </section>
+</body>
+</html>
